@@ -1,0 +1,21 @@
+.page-not-found-containder {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  h3 {
+    margin-bottom: 50px;
+  }
+
+  span {
+    font-weight: bold;
+    cursor: pointer;
+
+    &:hover {
+      transition: all 400ms;
+      color: #FF4081;
+    }
+  }
+}

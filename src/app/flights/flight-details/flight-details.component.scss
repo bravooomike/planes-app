@@ -1,0 +1,15 @@
+.details-container {
+  .flight-details-title-container {
+    border-bottom: 1px solid rgb(246, 246, 246);
+    padding-bottom: 10px;
+  }
+
+  .flight-details-close-btn {
+    cursor: pointer;
+  }
+
+  .flight-details-edit-btn-container {
+    border-top: 1px solid rgb(246, 246, 246);
+    padding-top: 10px;
+  }
+}

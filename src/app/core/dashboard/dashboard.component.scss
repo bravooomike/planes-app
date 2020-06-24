@@ -1,0 +1,23 @@
+.logo {
+  background-color: #fff;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 25px;
+}
+
+.logout-icon {
+  font-size: 35px;
+  cursor: pointer;
+
+  &:hover {
+    transition: all 400ms;
+    color: #FF4081;
+    ;
+  }
+}
+
+.user-login {
+  font-size: 15px;
+  padding-right: 30px;
+
+}

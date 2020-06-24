@@ -1,0 +1,7 @@
+<div class="row flights-container">
+  <div class="col-sm-4" *ngFor="let flight of flights$ | async" (click)="openFlightDetails(flight)">
+    <app-flight-card [flight]="flight"></app-flight-card>
+  </div>
+</div>
+<!-- <button mat-fab color="accent" id="new-flight-btn">+</button> -->
+<button (click)="openNewFlight()" mat-mini-fab id="new-flight-btn">+</button>

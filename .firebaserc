@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "clockwork-bookstore-43be5": {
+      "hosting": {
+        "planes-app": [
+          "clockwork-bookstore-43be5"
+        ]
+      }
+    }
+  }
+}

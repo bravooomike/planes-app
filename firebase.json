@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "planes-app",
+      "public": "dist/planes-app",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}
